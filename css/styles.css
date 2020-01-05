@@ -1,0 +1,174 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-weight: 400;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+}
+
+h1 {
+    padding-top: 10%;
+    color:  #e4f9ff;
+    font-weight: 900;
+    font-size: 3.3rem;
+    line-height: 1.5;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding-top: 15px;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+#title {
+  background-color: #66BFBF;
+  text-align: left;
+}
+
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.mission {
+  padding-top: 7%;
+  padding-left: 10%;
+}
+
+.navbar {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-brand{
+  font-family: 'Sacramento', cursive;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar-item {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.download-button{
+  margin-left: 0;
+  margin-right: 3%;
+  margin-top: 5%;
+}
+
+
+/* features section */
+
+#features {
+  padding: 5% 15%;
+}
+
+.feature-box{
+  padding: 5%;
+}
+
+.icon{
+  color: #66BFBF;
+}
+
+.icon:hover{
+  color: #8f8f8f;
+}
+
+/* Testimonial section */
+
+#testimonials {
+  padding: 5% 15%;
+  background-color: #66BFBF;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 0 10%;
+}
+/* Press */
+
+#press {
+  background-color: #66BFBF;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* explanation */
+#explanation {
+  padding: 100px;
+}
+
+.card-body {
+  text-align: left;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* call to action */
+#cta {
+  background-color: #66BFBF;
+  padding: 7% 15%;
+}
+
+.call-to-action-title {
+  font-family: Montserrat;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+
+/* footer */
+#footer {
+  padding: 7% 15%;
+  font-size: 1rem;
+}
+
+.footer-link {
+  color: #66BFBF;
+}
+
+.social-media{
+  size: 5x;
+  margin-left: 0;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+
+@media (max-width: 1028px) {
+
+  #title {
+  text-align: left;
+  }
+}
